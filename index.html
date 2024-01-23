@@ -111,7 +111,7 @@
                     </div>
                     <!-- text-over -->
                     <div
-                        class=" hidden lg:block absolute  bg-slate-900 text-white p-3 text-start  rounded-2xl w-1/2 right-[32px] bottom-[32px] space-y-3">
+                        class="hidden lg:block absolute  bg-slate-900 text-white p-3 text-start  rounded-2xl w-1/2 right-[32px] bottom-[32px] space-y-3">
                         <h4 class="text-2xl">Meet all the heroes from the field</h4>
                         Connect with our hockey heroes, exploring their journeys, victories, and passion for the game.
                         Join the celebration!
@@ -125,7 +125,7 @@
                         <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
                         <!-- text-over -->
                         <div
-                            class="absolute bg-slate-900 text-white p-3 text-start  rounded-2xl w-1/2 right-[32px] bottom-[25px] space-y-3">
+                            class=" hidden lg:block absolute bg-slate-900 text-white p-3 text-start  rounded-2xl w-1/2 right-[32px] bottom-[25px] space-y-3">
                             <h4 class="text-2xl">Meet all the heroes from the field</h4>
                             Connect with our hockey heroes, exploring their journeys, victories, and passion for the
                             game.
@@ -142,7 +142,7 @@
                     </div>
                     <!-- text-over -->
                     <div
-                        class="absolute bg-slate-900 text-white p-3 text-start  rounded-2xl w-1/2 right-[32px] bottom-[32px] space-y-3">
+                        class=" hidden lg:block absolute bg-slate-900 text-white p-3 text-start  rounded-2xl w-1/2 right-[32px] bottom-[32px] space-y-3">
                         <h4 class="text-2xl">Meet all the heroes from the field</h4>
                         Connect with our hockey heroes, exploring their journeys, victories, and passion for the game.
                         Join the celebration!
@@ -236,14 +236,31 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 grid-rows-1 lg:grid-cols-12 lg:grid-rows-2 gap-3">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-3">
                 <!-- gallery 1 -->
-                <div class="col-span-6">
+                <div class="lg:col-span-6 col-span-12 w-full lg:block">
                     <div class="rounded-xl">
-                        <div class="hero w-full h-96 rounded-xl" style="background-image: url('./Images/2.png');">
-                            <div class="hero-overlay bg-opacity-40 rounded-xl"></div>
-                            <div class="hero-content text-white">
-                                <div class="max-w-md">
+                        <div class="hero w-full h-[70vh] rounded-xl" style="background-image: url('./Images/2.png');">
+                            <div class="hero-overlay bg-opacity-40 rounded-xl">
+                                <div class="text-white ml-6 mt-6 lg:pl-10 lg:pt-28">
+                                    <h1 class="my-3 text-xl font-bold">Junior Program</h1>
+                                    <p class="my-3">Junior hockey program fosters teamwork,<br> skill development, and
+                                        passion, nurturing a cohesive
+                                        group of young athletes dedicated to the sport.
+                                    </p>
+                                    <button class="primary_btn px-3">Register Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery 2 -->
+                <div class="lg:col-span-6 col-span-12 w-full lg:block">
+                    <div class="rounded-xl">
+                        <div class="hero w-full h-[70vh] rounded-xl" style="background-image: url('./Images/2.png');">
+                            <div class="hero-overlay bg-opacity-40 rounded-xl">
+                                <div class=" text-white ml-6 mt-6 lg:pl-10 lg:pt-28">
                                     <h1 class="my-3 text-xl font-bold">Junior Program</h1>
                                     <p class="my-3">Junior hockey program fosters teamwork, skill development, and
                                         passion, nurturing a cohesive
@@ -252,41 +269,32 @@
                                     <button class="primary_btn px-3">Register Now</button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
-                <!-- gallery 2 -->
-                <div class="col-span-6">
-                    <div class="rounded-xl">
-                        <div class="hero w-full h-96 rounded-xl" style="background-image: url('./Images/3.png');">
-                            <div class="hero-overlay bg-opacity-40 rounded-xl"></div>
-                            <div class="hero-content text-white">
-                                <div class="max-w-md">
-                                    <h1 class="mb-5 text-xl font-bold">Junior Program</h1>
-                                    <p class="mb-5">Junior hockey program fosters teamwork, skill development, and
-                                        passion, nurturing a cohesive
-                                        group of young athletes dedicated to the sport.
-                                    </p>
-                                    <button class="primary_btn px-3">Register Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
+
+               
                 <!-- gallery 3 -->
                 <div class="col-span-12">
                     <div class="rounded-xl">
-                        <div class="hero w-full h-96 rounded-xl" style="background-image: url('./Images/4.png');">
-                            <div class="hero-overlay bg-opacity-40 rounded-xl"></div>
-                            <div class="hero-content text-white">
-                                <div class="">
+                        <div class="hero w-full h-[70vh] rounded-xl "
+                            style="background-image: url('./Images/4.png');">
+                            <div class="hero-overlay bg-opacity-40 rounded-xl">
+                                <div class="text-white ml-6 lg:ml-20 lg:pt-28 pt-6">
                                     <h1 class="mb-5 text-xl font-bold">Junior Program</h1>
-                                    <p class="mb-5 w-2/4">Junior hockey program fosters teamwork, skill development, and
+                                    <p class="mb-5 lg:w-2/4">Junior hockey program fosters teamwork, skill development,
+                                        and
                                         passion, nurturing a cohesive
                                         group of young athletes dedicated to the sport.
                                     </p>
                                     <button class="primary_btn px-3">Register Now</button>
                                 </div>
+                            </div>
+                            <div class="hero-content text-white">
+
                             </div>
                         </div>
                     </div>
@@ -298,50 +306,6 @@
             </div>
         </section>
 
-        <section>
-            <div class=" container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-5">
-
-                <!-- pic 1 -->
-                <div class=" col-span-6 card image-full">
-                    <figure><img class="w-full" src="Images/2.png" alt="Shoes" /></figure>
-                    <div class="card-body pt-40">
-                        <h2 class="card-title">Junior Program</h2>
-                        <p>Junior hockey program fosters teamwork, skill development, and passion, nurturing a cohesive
-                            group of young athletes dedicated to the sport.</p>
-                        <div class="justify-start pb-4">
-                            <button>Register Now!</button>
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-span-6 card  image-full">
-                    <figure><img class="w-full" src="Images/3.png" alt="Shoes" /></figure>
-                    <div class="card-body pt-40">
-                        <h2 class="card-title">Junior Program</h2>
-                        <p>Junior hockey program fosters teamwork, skill development, and passion, nurturing a cohesive
-                            group of young athletes dedicated to the sport.</p>
-                        <div class="justify-start pb-4">
-                            <button>Register Now!</button>
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-span-12 card image-full">
-                    <figure><img class="w-full" src="Images/4.png" alt="Shoes" /></figure>
-                    <div class="card-body pt-40">
-                        <h2 class="card-title">Junior Program</h2>
-                        <p>Junior hockey program fosters teamwork, skill development, and passion, nurturing a cohesive
-                            group of young athletes dedicated to the sport.</p>
-                        <div class="justify-start pb-4">
-                            <button>Register Now!</button>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-            </div>
-        </section>
 
         <!-- Our new product -->
         <section>
@@ -388,11 +352,13 @@
                             <p>Global flags adorn football celebration.</p>
 
 
-                            <div class="card-actions flex justify-start items-center space-x-24">
+                            <div class="card-actions flex justify-start items-start  space-x-24">
                                 <h5 class="text-color_primary">Price - $22.00</h5>
-                                <div class="flex justify-center items-center">
-                                    <img src="Images/shop.png" alt="">
-                                    <h5>Price - $22.00</h5>
+                                <div class="flex justify-center items-center ">
+                                    <div><img src="Images/shop.png" alt=""></div>
+                                    <div>
+                                        <h5>Price - $22.00</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -696,7 +662,7 @@
                                     152/1 Mohakhali Wireless Gate</h5>
                             </div>
                         </div>
-                        
+
                         <div>
                             <h1 class="text-5xl font-bold">Box Office News!</h1>
                             <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
@@ -780,7 +746,7 @@
                         <h5>hockeys@support.com</h5>
                     </div>
                     <div class="flex">
-                        <img  class="pr-2" src="Images/call.png" alt="">
+                        <img class="pr-2" src="Images/call.png" alt="">
                         <h5>
                             (+62) 123-321-543
                         </h5>
@@ -795,7 +761,7 @@
                     <h2 class="text-2xl">
                         Company
                     </h2>
-    
+
                     <ul class="">
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Leadership</a></li>
@@ -803,21 +769,21 @@
                         <li><a href="#">News & Article</a></li>
                         <li><a href="#">Legal Notice</a></li>
                     </ul>
-    
+
                 </div>
                 <div class="space-y-5">
                     <h2 class="text-2xl">
                         Support
                     </h2>
-    
+
                     <ul class="">
                         <li><a href="#">Help Cente</a></li>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Ticket Support</a></li>
                         <li><a href="#">Contact Us</a></li>
-                       
+
                     </ul>
-    
+
                 </div>
             </div>
 
